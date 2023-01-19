@@ -19,6 +19,12 @@ pip install -U openai-whisper
 pip install git+https://github.com/openai/whisper.git 
 ```
 
+To小白：还可以在后面换源加速，比如
+```bash
+pip install -U openai-whisper -i 	http://mirrors.aliyun.com/pypi/simple/
+```
+
+
 然后需要一个ffmpeg，不会设置path的小白可以直接互联往上下一个ffmpeg.exe丢到C:\Windows\System32里面
 
 安装好以后就可以使用这个GUI版本了
