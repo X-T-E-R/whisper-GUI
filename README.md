@@ -21,7 +21,7 @@ pip install git+https://github.com/openai/whisper.git
 
 To小白：还可以在后面换源加速，比如
 ```bash
-pip install -U openai-whisper -i 	http://mirrors.aliyun.com/pypi/simple/
+pip install -U openai-whisper -i  http://pypi.mirrors.ustc.edu.cn/simple/ --trusted-host pypi.mirrors.ustc.edu.cn
 ```
 
 
